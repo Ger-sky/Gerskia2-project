@@ -1,0 +1,323 @@
+@media only screen and (max-width: 700px) {
+    :root {
+        --blue: #6a65ff;
+        --grey: #ebddff;
+        --blueciel: #e7f5fe;
+        --violet: #e6c9ff;
+        --marrain: #aae5f9;
+        --white: #f5f4f9;
+        --black: #2b2d3c;
+        --pad: 0 20px;
+        --gap: 30px;
+        --Hpad: 20px 30px;
+        --h1size: 60px;
+        --h2size: 40px;
+        --h3size: 30px;
+        --h4size: 20px;
+        --apssize: 18px;
+        --btnpad: 0 20px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0;
+    }
+    body header {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 30px;
+    }
+    header nav {
+        display: none;
+    }
+    .logos h4 {
+        display: none;
+    }
+    header i {
+        display: flex;
+        font-size: 30px;
+    }
+    header button {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    main .S1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .S1 .side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .side .goal {
+        display: none;
+    }
+    .side .btn {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .S1 .gradient {
+        width: 100%;
+        /* position: relative; */
+    }
+    .gradient .bloc {
+        margin: 20px;
+    }
+    .bloc .billan {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .triangle img {
+        width: 50px;
+        height: 50px;
+    }
+    .triangle .imgf {
+        width: 70px;
+        height: 70px;
+        left: 35px;
+    }
+    .triangle .imgg {
+        width: 60px;
+        height: 60px;
+        left: 20px;
+    }
+    .imgg img {
+        width: 60px;
+        height: 60px;
+    }
+    .triangle .imgm {
+        width: 70px;
+        height: 70px;
+        top: -30px;
+        left: 5px;
+    }
+    .imgm img {
+        width: 70px;
+        height: 70px;
+    }
+    .triangle :nth-child(4) {
+        left: -10px;
+    }
+    .triangle :nth-child(5) {
+        left: -20px;
+    }
+    .bloc .sale {
+        width: 200px;
+        height: 200px;
+        border-right: 1px solid var(--blacks);
+    }
+    .S1 .div {
+        left: 45px;
+        top: 550px;
+    }
+    .S2 .tree {
+        margin: 0;
+    }
+    .tree p {
+        padding: 0;
+    }
+    .S2 .twoside {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .twoside .side1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        row-gap: 40px;
+    }
+    .side1 .instant {
+        width: 100%;
+    }
+    .twoside .side2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        row-gap: 40px;
+    }
+    .side2 .txts {
+        width: 100%;
+    }
+    .side2 .side12 {
+        width: 100%;
+        margin: 20px;
+    }
+    main .S3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .S3 .side21 {
+        width: 100%;
+    }
+    .side21 .white {
+        margin: 20px;
+    }
+    .side21 .absolute {
+        display: none;
+    }
+    .S3 .side22 {
+        width: 100%;
+        padding: 0;
+    }
+    .side22 span {
+        margin-top: 40px;
+    }
+    .side22 .one {
+        display: flex;
+        column-gap: 10px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .one .pulvinar {
+        width: 100%;
+        display: flex;
+        column-gap: 30px;
+    }
+    main .S4 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        margin: 0;
+    }
+    .S4 .overview {
+        width: 100%;
+    }
+    .overview .percent {
+        display: flex;
+        flex-direction: row;
+        column-gap: 0;
+        justify-content: space-between;
+    }
+    .S4 .degrader {
+        width: 100%;
+    }
+    .degrader .pack {
+        margin: 20px;
+    }
+    .pack h3 {
+        width: 250px;
+        text-align: center;
+    }
+    .keep p {
+        width: 100%;
+    }
+    .pack .btns {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .degrader .combine {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        top: 10px;
+        left: 0px;
+    }
+    main .S5 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        padding: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .S5 h3 {
+        width: 100%;
+    }
+    .S5 .million {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;    
+    }
+    .million .decrease1 {
+        border-top: 1px solid var(--blacks);
+        border-bottom: 1px solid var(--blacks);
+        padding: 40px 0;
+    }
+    .decrease1 h2 {
+        border-left: 0;
+        border-right: 0;
+    }
+    main .S6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .S6 .up {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .up br {
+        display: none;
+    }
+    .up button {
+        margin-top: 20px;
+    }
+    .S6 .down {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 8px;
+        row-gap: 10px;
+    }
+    .down .whole {
+        width: 48%;
+        padding: 10px;
+    }
+    .down .split {
+        width: 48%;
+    }
+    .split .dif {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 10px;
+    }
+    .down :nth-child(5) {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        column-gap: 30px;
+    }
+    body footer {
+        margin-top: 100px;
+    }
+    footer .txt {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .txt br {
+        display: none;
+    }
+    footer .sides {
+        margin-top: -20px;
+        display: flex;
+        row-gap: 40px;
+        flex-wrap: wrap;
+    }
+    .sides .sider {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 50px;
+    }
+}

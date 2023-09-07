@@ -1,0 +1,63 @@
+@media only screen and (max-width: 700px) {
+    :root {
+        --gap: 10px;
+        --h4size: 25px;
+        --apssize: 14px;
+    }
+    body {
+        margin: 20px;
+        width: 80%;
+        padding: 30px 20px;
+        row-gap: 30px;
+    }
+    body header {
+        width: 47%;
+    }
+    header .img {
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid var(--blue);
+        border-radius: 50%;
+    }
+    .img img {
+        width: 30px;
+        height: 30px;
+    }
+    body form {
+        padding: 0;
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .sign {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .sign input {
+        height: 40px;
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .sign img {
+        width: 25px;
+        height: 25px;
+        top: 34px;
+    }
+    .sign #number {
+        padding-left: 40px;
+    }
+    .sign svg {
+        top: 31px;
+    }
+    form :nth-child(7) {
+        height: 40px;
+        width: 45%;
+        margin-left: 150px;
+    }
+}
